@@ -1,0 +1,22 @@
+FilterMethod package
+====================
+
+Submodules
+----------
+
+FilterMethod.Correlation module
+-------------------------------
+
+.. automodule:: FilterMethod.Correlation
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: FilterMethod
+    :members:
+    :undoc-members:
+    :show-inheritance:

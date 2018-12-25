@@ -1,0 +1,3 @@
+"""
+    FilterMethodのinit.py
+"""
