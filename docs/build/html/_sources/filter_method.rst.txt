@@ -12,6 +12,14 @@ filter\_method.correlation module
     :undoc-members:
     :show-inheritance:
 
+filter\_method.mutual\_information module
+-----------------------------------------
+
+.. automodule:: filter_method.mutual_information
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 Module contents
 ---------------

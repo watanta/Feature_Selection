@@ -6,12 +6,15 @@ from sklearn.feature_selection import mutual_info_regression
 
 
 def get_mutual_information(x, y):
-    """
-    各説明変数と目的変数の相互情報量を計算する
+    """各説明変数と目的変数の相互情報量を取得する。
 
-    :param x: 説明変数のDataFrame
-    :param y: 目的変数のDataFrame
-    :return: 各説明変数と目的変数の相互情報量
+    Args:
+        x (DataFrame): 説明変数
+        y (DataFrame): 目的変数
+
+    Returns:
+        DataFrame: 各説明変数と目的変数の相互情報量
+
     """
 
     mi_list = []
