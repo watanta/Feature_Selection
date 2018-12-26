@@ -16,7 +16,7 @@ def correlation_selection_th(x, y, th):
 
     """
 
-    assert 0 < th < 1, 'thは0<th<1でなければならない'
+    assert 0 < th < 1, 'thは0<th<1にしてください'
 
     corr_df = x.copy()
     corr = get_abs_correlations(x, y)
@@ -38,6 +38,8 @@ def correlation_selection_rank(x, y, rank):
 
 
     """
+
+    assert rank < x.shape[1], "rankが説明変数の数より大きいです"
 
     corr_df = x.copy()
     corr = get_abs_correlations(x, y)
