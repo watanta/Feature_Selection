@@ -70,8 +70,8 @@ import numpy as np
 import pandas as pd
 import lightgbm as gbm
 from sklearn.model_selection import KFold
-from feature_selection.embedded_method.shap_value import get_shape_value
-from feature_selection.embedded_method.shap_value import shap_value_selection
+from feature_selection.embedded_method.shap_value import get_shap_value_moment
+from feature_selection.embedded_method.shap_value import shap_value_moment_selection_rank
 
 
 X = pd.DataFrame(np.random.rand(10, 10))
@@ -79,6 +79,6 @@ y = pd.DataFrame(np.random.rand(10))
 
 my_model = gbm.LGBMRegressor(random_state=0)
 
-shap_value = get_shape_value(X, y, my_model)
+shap_value = get_shap_value_moment(X, y, my_model)
 
-shap_df = shap_value_selection(X, y, my_model, 5)
+shap_df = shap_value_moment_selection_rank(X, y, my_model, 5)

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20810713-36b8-44da-b6e3-89893475588f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="67" selection-start-line="67" selection-end-line="83" selection-end-column="49" />
+            <state relative-caret-position="222">
+              <caret line="67" selection-start-line="67" selection-end-line="83" selection-end-column="61" />
               <folding>
                 <element signature="e#1#71#0" expanded="true" />
               </folding>
@@ -30,10 +28,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="390">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#33#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_selection/filter_method/correlation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+              <folding>
+                <element signature="e#30#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +127,12 @@
               <item name="Feature_Selection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Feature_Selection" type="462c0819:PsiDirectoryNode" />
               <item name="feature_selection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Feature_Selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Feature_Selection" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="filter_method" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Feature_Selection" type="b2602c69:ProjectViewProjectNode" />
@@ -258,16 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/filter_method/correlation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#30#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.ipynb" />
     <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/step_foward.py" />
     <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/sequential_forward_selection.py" />
@@ -353,10 +359,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/feature_selection/filter_method/correlation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="e#30#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="67" selection-start-line="67" selection-end-line="83" selection-end-column="49" />
+        <state relative-caret-position="222">
+          <caret line="67" selection-start-line="67" selection-end-line="83" selection-end-column="61" />
           <folding>
             <element signature="e#1#71#0" expanded="true" />
           </folding>
@@ -365,8 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="390">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#33#44#0" expanded="true" />
           </folding>
