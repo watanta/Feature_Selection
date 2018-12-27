@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20810713-36b8-44da-b6e3-89893475588f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_selection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Feature_Selection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Feature_Selection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/doctrees/filter_method.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/doctrees/filter_method.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/doctrees/index.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/.buildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_modules/filter_method/correlation.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/_modules/filter_method/correlation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_modules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/_modules/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_sources/filter_method.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/_sources/filter_method.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/documentation_options.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/_static/documentation_options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/pygments.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/_static/pygments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/filter_method.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/py-modindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/filter_method.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/filter_method.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_selection/filter_method/mutual_information.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/filter_method/mutual_information.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="282">
+              <caret line="67" selection-start-line="67" selection-end-line="83" selection-end-column="49" />
               <folding>
                 <element signature="e#1#71#0" expanded="true" />
               </folding>
@@ -50,10 +28,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/permutation_selection.py">
+        <entry file="file://$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="56" column="46" lean-forward="true" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+            <state relative-caret-position="477">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#33#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/permutation_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="49" selection-start-line="49" selection-end-line="58" selection-end-column="18" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
               </folding>
@@ -64,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_selection/filter_method/mutual_information.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+            <state relative-caret-position="1020">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
               <folding>
                 <element signature="e#31#49#0" expanded="true" />
               </folding>
@@ -97,13 +87,15 @@
         <option value="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.ipynb" />
         <option value="$PROJECT_DIR$/feature_selection/wrapping_method/sequential_forward_selection.py" />
         <option value="$PROJECT_DIR$/feature_selection/filter_method/mutual_information.py" />
-        <option value="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" />
         <option value="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_selection.py" />
+        <option value="$PROJECT_DIR$/feature_selection/embedded_method/shap_value_selection.py" />
+        <option value="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" />
+        <option value="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="65" />
+    <option name="x" value="75" />
     <option name="y" value="24" />
     <option name="width" value="928" />
     <option name="height" value="1056" />
@@ -113,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,19 +122,12 @@
               <item name="Feature_Selection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Feature_Selection" type="462c0819:PsiDirectoryNode" />
               <item name="feature_selection" type="462c0819:PsiDirectoryNode" />
-              <item name="filter_method" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Feature_Selection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Feature_Selection" type="462c0819:PsiDirectoryNode" />
-              <item name="feature_selection" type="462c0819:PsiDirectoryNode" />
               <item name="wrapping_method" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,10 +202,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="928" height="1056" extended-state="4" />
+    <frame x="75" y="24" width="928" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3939052" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40293455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,23 +248,9 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FilterMethod/Crrelation.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilterMethod/Correlation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilterMethod/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FilterMethod/Crrelation.py" />
+    <entry file="file://$PROJECT_DIR$/FilterMethod/Correlation.py" />
+    <entry file="file://$PROJECT_DIR$/FilterMethod/__init__.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -296,30 +268,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/step_foward.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/sequential_forward_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/sequential_feature_selector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.ipynb" />
+    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/step_foward.py" />
+    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/sequential_forward_selection.py" />
+    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/sequential_feature_selector.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/mlxtend/plotting/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -381,32 +333,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="e#1#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection/filter_method/mutual_information.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        <state relative-caret-position="1020">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
           <folding>
             <element signature="e#31#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/permutation_selection.py">
+    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/permutation_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="56" column="46" lean-forward="true" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+        <state relative-caret-position="327">
+          <caret line="49" selection-start-line="49" selection-end-line="58" selection-end-column="18" />
           <folding>
             <element signature="e#46#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="67" selection-start-line="67" selection-end-line="83" selection-end-column="49" />
+          <folding>
+            <element signature="e#1#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#33#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

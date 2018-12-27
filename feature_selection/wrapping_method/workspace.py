@@ -48,8 +48,8 @@ perm = PermutationImportance(my_model, random_state=1, cv=5).fit(X.values, y.val
 perm_feat_imp = perm.feature_importances_
 
 
-from feature_selection.wrapping_method.permutation_selection import get_permutation_score
-from feature_selection.wrapping_method.permutation_selection import perm_selection
+from feature_selection.wrapping_method.permutation_score import get_permutation_score
+from feature_selection.wrapping_method.permutation_score import perm_selection
 
 import pandas as pd
 import numpy as np
@@ -64,3 +64,21 @@ y = pd.DataFrame(np.random.rand(10))
 my_model = gbm.LGBMRegressor(random_state=0)
 
 perm = perm_selection(X, y, my_model, 5, cv=5, random_state=1)
+
+import shap
+import numpy as np
+import pandas as pd
+import lightgbm as gbm
+from sklearn.model_selection import KFold
+from feature_selection.embedded_method.shap_value import get_shape_value
+from feature_selection.embedded_method.shap_value import shap_value_selection
+
+
+X = pd.DataFrame(np.random.rand(10, 10))
+y = pd.DataFrame(np.random.rand(10))
+
+my_model = gbm.LGBMRegressor(random_state=0)
+
+shap_value = get_shape_value(X, y, my_model)
+
+shap_df = shap_value_selection(X, y, my_model, 5)
