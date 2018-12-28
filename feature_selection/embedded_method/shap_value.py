@@ -92,7 +92,7 @@ def get_shap_value_moment(x, y, estimator, ex_type="tree", cv=5):
             explainer = shap.KernelExplainer(model)
 
         shap_values = explainer.shap_values(valid_x)
-        shap_values_moment = (valid_x * np.abs(shap_values)).mean(axis=0)
+        shap_values_moment = np.abs((valid_x * np.abs(shap_values)).mean(axis=0))
 
         cv_list.append(shap_values_moment)
         cv_index.append("cv"+str(i))
