@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20810713-36b8-44da-b6e3-89893475588f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feature_selection/feature_make/arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/feature_make/arithmetic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="491">
@@ -28,10 +28,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_selection/feature_make/arithmetic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+            <state relative-caret-position="1257">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="e#25#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+              <folding>
+                <element signature="e#33#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,10 +75,10 @@
         <option value="$PROJECT_DIR$/feature_selection/filter_method/mutual_information.py" />
         <option value="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_selection.py" />
         <option value="$PROJECT_DIR$/feature_selection/embedded_method/shap_value_selection.py" />
-        <option value="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" />
         <option value="$PROJECT_DIR$/feature_selection/wrapping_method/permutation_score.py" />
         <option value="$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py" />
         <option value="$PROJECT_DIR$/feature_selection/feature_make/arithmetic.py" />
+        <option value="$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py" />
       </list>
     </option>
   </component>
@@ -98,7 +110,7 @@
               <item name="Feature_Selection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Feature_Selection" type="462c0819:PsiDirectoryNode" />
               <item name="feature_selection" type="462c0819:PsiDirectoryNode" />
-              <item name="feature_make" type="462c0819:PsiDirectoryNode" />
+              <item name="embedded_method" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +193,7 @@
     <frame x="75" y="24" width="928" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42099324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42099324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -194,7 +206,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3272727" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3379679" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3272727" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3272727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,16 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="94" column="81" selection-start-line="94" selection-start-column="81" selection-end-line="94" selection-end-column="81" />
-          <folding>
-            <element signature="e#33#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection/filter_method/correlation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -339,22 +341,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection/feature_make/arithmetic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-          <folding>
-            <element signature="e#25#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection/wrapping_method/workspace.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
           <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="e#1#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_selection/feature_make/arithmetic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1257">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_selection/embedded_method/shap_value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="e#33#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,15 +16,21 @@ def plus(x):
 
     """
 
+    print("plus...")
+
     df = pd.DataFrame(np.zeros((x.shape[0], 1)))
     df.columns = ["to_delete"]
     name_list = []
+    i = 0
 
     for comb in list(itertools.combinations(x.columns.values, 2)):
+        print(i/len(list(itertools.combinations(x.columns.values, 2))))
         plus_df = x.loc[:, comb].sum(axis=1)
         name = str(comb[0])+'+'+str(comb[1])
         name_list.append(name)
         df = pd.concat((df, plus_df), axis=1)
+
+        i += 1
 
     df = df.drop("to_delete", axis=1)
     df.columns = name_list
@@ -42,18 +48,23 @@ def minus(x):
         DataFrame: xのすべての列の要素が2の組それぞれの差
 
     """
+    print("minus...")
 
     df = pd.DataFrame(np.zeros((x.shape[0], 1)))
     df.columns = ["to_delete"]
     name_list = []
+    i = 0
 
     for comb in list(itertools.combinations(x.columns.values, 2)):
+        print(i / len(list(itertools.combinations(x.columns.values, 2))))
         x1 = x.loc[:, comb[0]]
         x2 = x.loc[:, comb[1]]
         minus_df = x1 - x2
         name = str(comb[0])+'-'+str(comb[1])
         name_list.append(name)
         df = pd.concat((df, minus_df), axis=1)
+
+        i += 1
 
     df = df.drop("to_delete", axis=1)
     df.columns = name_list
@@ -71,18 +82,23 @@ def times(x):
         DataFrame: xのすべての列の要素が2の組それぞれの積
 
     """
+    print("times...")
 
     df = pd.DataFrame(np.zeros((x.shape[0], 1)))
     df.columns = ["to_delete"]
     name_list = []
+    i = 0
 
     for comb in list(itertools.combinations(x.columns.values, 2)):
+        print(i / len(list(itertools.combinations(x.columns.values, 2))))
         x1 = x.loc[:, comb[0]]
         x2 = x.loc[:, comb[1]]
         times_df = x1 * x2
         name = str(comb[0])+'*'+str(comb[1])
         name_list.append(name)
         df = pd.concat((df, times_df), axis=1)
+
+        i += 1
 
     df = df.drop("to_delete", axis=1)
     df.columns = name_list
@@ -101,17 +117,22 @@ def div(x):
 
     """
 
+    print("div...")
+
     df = pd.DataFrame(np.zeros((x.shape[0], 1)))
     df.columns = ["to_delete"]
     name_list = []
+    i = 0
 
     for comb in list(itertools.combinations(x.columns.values, 2)):
+        print(i / len(list(itertools.combinations(x.columns.values, 2))))
         x1 = x.loc[:, comb[0]]
         x2 = x.loc[:, comb[1]]
         div_df = x1 * x2
         name = str(comb[0])+'/'+str(comb[1])
         name_list.append(name)
         df = pd.concat((df, div_df), axis=1)
+        i += 1
 
     df = df.drop("to_delete", axis=1)
     df.columns = name_list
