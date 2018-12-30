@@ -24,8 +24,7 @@ def get_shap_value(x, y, estimator, ex_type="tree", cv=5):
                     汎化したshap valueを見たいので、cvしてvalidationのshap valuesを平均する
     """
 
-    ms = MinMaxScaler()
-    data_norm = ms.fit_transform(x)
+
     kf = KFold(n_splits=cv)
     cv_list = []
     cv_index = []
@@ -33,7 +32,7 @@ def get_shap_value(x, y, estimator, ex_type="tree", cv=5):
 
     for train_index, valid_index in kf.split(data_norm):
 
-        i +=1
+        i += 1
 
         train_x = x.loc[train_index, :]
         train_y = y.loc[train_index, :]
@@ -74,21 +73,22 @@ def get_shap_value_moment(x, y, estimator, ex_type="tree", cv=5):
                     汎化したshap valueを見たいので、cvしてvalidationのshap valuesを平均する
 
     """
-
+    ms = MinMaxScaler()
+    data_norm = ms.fit_transform(x)
     kf = KFold(n_splits=cv)
     cv_list = []
     cv_index = []
     i = 0
 
-    for train_index, valid_index in kf.split(x):
+    for train_index, valid_index in kf.split(data_norm):
 
-        i +=1
+        i += 1
 
-        train_x = x.loc[train_index, :]
+        train_x = data_norm[train_index, :]
         train_y = y.loc[train_index, :]
-        valid_x = x.loc[valid_index, :]
+        valid_x = data_norm[valid_index, :]
 
-        model = estimator.fit(train_x, train_y)
+        model = estimator.fit(train_x, train_y.values.flatten())
         if ex_type == "tree":
             explainer = shap.TreeExplainer(model)
         if ex_type == "kernel":
