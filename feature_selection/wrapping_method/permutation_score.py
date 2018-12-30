@@ -77,7 +77,7 @@ def perm_selection_th(x, y, estimator, th, cv=5, random_state=1):
 
     perm_df = x.copy()
     perm = get_permutation_score(x, y, estimator=estimator, cv=cv, random_state=random_state)
-    perm_df.loc["perm_importance_mean", :] = perm.loc["perm_importance_mean",:].values
+    perm_df.loc["perm_importance_mean", :] = perm.loc["perm_importance_mean", :].values
     perm_df = perm_df.sort_values("perm_importance_mean", ascending=False, axis=1)
     perm_df = perm_df.loc[:, perm_df.loc["perm_importance_mean", :] > th]
 
