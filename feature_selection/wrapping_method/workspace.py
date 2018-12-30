@@ -86,10 +86,10 @@ shap_df = shap_value_moment_selection_rank(X, y, my_model, 5)
 import numpy as np
 import pandas as pd
 import lightgbm as gbm
-from feature_selection.feature_make.arithmetic import plus
+from feature_selection.feature_make.arithmetic import all_arithmetic
 
 X = pd.DataFrame(np.random.rand(10, 10))
 y = pd.DataFrame(np.random.rand(10))
 
-df = plus(X)
+df = all_arithmetic(X)
 
